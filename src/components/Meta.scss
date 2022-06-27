@@ -1,0 +1,26 @@
+.Meta {
+  display: flex;
+  padding: 2em;
+  .movie-list {
+  }
+  .movie-card {
+    box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 0 0px 10px 0px;
+  }
+  img {
+    max-height: 380px;
+    box-shadow: inset -9px 0px 11px 0px rgb(0 0 0 / 25%);
+  }
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .progress-bar {
+    margin: 0.4em;
+  }
+}
